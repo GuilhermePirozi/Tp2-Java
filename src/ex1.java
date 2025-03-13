@@ -9,6 +9,7 @@ public class ex1 {
 
         System.out.println("Informe a sua idade:");
         int idade = leitor.nextInt();
+        leitor.nextLine();
 
         System.out.println("Informe o nome do seu pai:");
         String nomePai = leitor.nextLine();
